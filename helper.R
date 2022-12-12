@@ -6,7 +6,7 @@ library(spotifyr)
 # set the Client ID and Client Secret ID that you received from
 # your Spotify Developer Account
 Sys.setenv(SPOTIFY_CLIENT_ID = '4b6653925c2c4642b3d434ae599e7ca0')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = 'ffcf9dcb2c704e7c8186da25022ab60c')
+Sys.setenv(SPOTIFY_CLIENT_SECRET = '')
 # set your access_token
 access_token <- get_spotify_access_token()
 # get the playlist's from spotify using this method
